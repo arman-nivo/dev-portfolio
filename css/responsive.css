@@ -1,0 +1,399 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .navbar-light .navbar-toggler-icon {
+        background: url(../img/scroll_to_top.jpg) no-repeat center center;
+        cursor: pointer;
+      }
+      .navbar-light .navbar-toggler {
+         border: none;
+         cursor: pointer;
+         border: 2px solid #fff;
+      }
+    #bannerSection {
+        margin-top: -20%;
+        padding: 30px 0px;
+    }
+
+    .bannerSectionText h1 {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .bannerSectionText h1::after {
+        top: 43px;
+
+    }
+
+    .bannerSectionText p {
+        margin-bottom: 30px;
+        padding: 0px 10px;
+    }
+
+    .bannerSectionText {
+        padding: 20px 0px;
+        margin-top: 40px;
+    }
+
+    #particles-js {
+        height: 80%;
+    }
+    #aboutSection {
+        padding: 30px 0px;
+        background-color: #fff;
+    }
+
+    .aboutImg {
+        margin-bottom: 25px;
+    }
+
+    .aboutText h1 {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .aboutText p {
+        padding-bottom: 0px;
+        padding-right: 0px;
+    }
+
+    .aboutText a {
+        display: block;
+        text-align: center;
+    }
+    #expertiseSection {
+        padding: 30px 0px;
+    }
+
+    .expertiseTopText p {
+        padding-bottom: 50px;
+    }
+    .expertiseBottomContent img {
+        margin-bottom: 25px;
+    }
+    .expertiseBottomContent h2 {
+        padding-bottom: 15px;
+    }
+    .expertiseBottomContent p {
+        padding: 0px 55px;
+        padding-bottom: 20px;
+    }
+    .workTopText {
+        margin-bottom: 30px;
+    }
+    #workSection {
+        padding: 30px 0px;
+    }
+    .WorkTopLeftText h2 {
+        text-align: center;
+    }
+    .WorkTopRightText p {
+        text-align: center;
+        margin-top: 5px;
+    }
+    .workBtn a {
+        display: block;
+        margin-top: 35px;
+    }
+    .PepoleSayImgSlider {
+        width: 200px;
+    }
+    .RightArrow {
+        right: 13%;
+        bottom: 13%;
+    }
+    .LeftArrow {
+        left: 10%;
+        bottom: 13%;
+    }
+    #contactSection {
+        background-color: #fff;
+        padding: 30px 0px;
+    }
+    .contactTopLeftText h2 {
+        font-size: 16px;
+        text-align: center;
+    }
+    .contactTopRightText h2 {
+        font-size: 16px;
+        display: none;
+    }
+    .contactInput {
+        padding: 15px 18px;
+        margin-bottom: 15px;
+    }
+    .contactBtn a {
+        /* font-size: 15px; */
+        /* padding: 10px 25px; */
+        margin-top: 10px;
+        margin-bottom: 25px;
+        display: block;
+        text-align: center;
+    }
+    #FooterSection {
+        padding: 30px 0px 20px 0px;
+    }
+    .footerTopLeftContent p {
+        padding: 0px 0px 25px 0px;
+    }
+    .footerTopLeftContent img {
+        padding-bottom: 15px;
+    }
+    .footerTopMiddleContent h2 {
+        padding-bottom: 15px;
+
+    }
+    .footerTopMiddleContent p {
+        margin-bottom: 10px;
+    }
+    .footerTopRightContent h2 {
+        padding-bottom: 15px;
+        margin-top: 15px;
+    }
+    .footerBottomLeftText ul {
+        text-align: center;
+    }
+    .footerBottomRightText p {
+        text-align: center;
+        padding-top: 5px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-light .navbar-toggler-icon {
+        background: url(../img/scroll_to_top.jpg) no-repeat center center;
+        cursor: pointer;
+      }
+      .navbar-light .navbar-toggler {
+         border: none;
+         cursor: pointer;
+         border: 2px solid #fff;
+      }
+    #bannerSection {
+        margin-top: -20%;
+    }
+
+    .bannerSectionText h1 {
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+
+    .bannerSectionText p {
+        margin-bottom: 30px;
+        padding: 0px 10px;
+    }
+
+    .bannerSectionText {
+        padding: 50px 0px;
+        margin-top: 40px;
+    }
+
+    #particles-js {
+        height: 80%;
+    }
+
+    .aboutImg {
+        margin-bottom: 25px;
+    }
+
+    .aboutText h1 {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .aboutText p {
+        padding-bottom: 0px;
+        padding-right: 0px;
+    }
+
+    .aboutText a {
+        display: block;
+        text-align: center;
+    }
+    #expertiseSection {
+        padding: 50px 0px;
+    }
+    .expertiseTopText p {
+        padding-bottom: 50px;
+    }
+    .expertiseBottomContent img {
+        margin-bottom: 25px;
+    }
+    .expertiseBottomContent h2 {
+        padding-bottom: 15px;
+    }
+    .expertiseBottomContent p {
+        padding: 0px 55px;
+        padding-bottom: 40px;
+    }
+    .workTopText {
+        margin-bottom: 30px;
+    }
+    #workSection {
+        padding: 50px 0px;
+    }
+    .workBtn a {
+        display: block;
+        margin-top: 35px;
+    }
+    .PepoleSayImgSlider {
+        width: 400px;
+    }
+    .RightArrow {
+        right: 11%;
+        bottom: 14%;
+    }
+    .LeftArrow {
+        left: 8%;
+        bottom: 14%;
+    }
+    .contactTopLeftText h2 {
+        font-size: 16px;
+    }
+    .contactTopRightText h2 {
+        font-size: 16px;
+    }
+    #FooterSection {
+        padding: 50px 0px 20px 0px;
+    }
+    .footerTopLeftContent p {
+        padding: 0px 0px 25px 0px;
+    }
+    .footerTopLeftContent img {
+        padding-bottom: 15px;
+    }
+    .footerTopMiddleContent h2 {
+        padding-bottom: 15px;
+
+    }
+    .footerTopMiddleContent p {
+        margin-bottom: 10px;
+    }
+    .footerTopRightContent h2 {
+        padding-bottom: 15px;
+        margin-top: 15px;
+    }
+    .footerBottomLeftText ul {
+        text-align: center;
+    }
+    .footerBottomRightText p {
+        text-align: center;
+        padding-top: 5px;
+    }
+
+
+
+    }
+
+    /* Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        .navbar {
+            position: relative;
+            z-index: 99999999999999;
+        }
+        .navbar-light .navbar-toggler-icon {
+          background: url(../img/scroll_to_top.jpg) no-repeat center center;
+          cursor: pointer;
+        }
+        .navbar-light .navbar-toggler {
+           border: none;
+           cursor: pointer;
+           border: 2px solid #fff;
+        }
+        .bannerSectionText p {
+            padding: 0px 50px;
+        }
+        #bannerSection {
+            margin-top: -15%;
+        }
+
+        .bannerSectionText {
+            padding: 90px 0px;
+        }
+
+        .aboutImg {
+            margin-bottom: 25px;
+        }
+
+        .aboutText h1 {
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        .aboutText p {
+            padding-bottom: 0px;
+            padding-right: 0px;
+        }
+
+        .aboutText a {
+            display: block;
+            text-align: center;
+        }
+
+        .workTopText {
+            margin-bottom: 30px;
+        }
+
+        .workBtn a {
+            display: block;
+            margin-top: 30px;
+        }
+
+        .RightArrow {
+            right: 10%;
+            bottom: 15%;
+        }
+
+        .LeftArrow {
+            left: 8%;
+            bottom: 15%;
+        }
+
+        img {
+            max-width: 80%;
+        }
+
+        .contactTextArea {
+            height: 150px;
+        }
+        .customCard img{
+            max-width: 100% !important;
+        }
+
+
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+        #bannerSection {
+            margin-top: -9%;
+        }
+
+        .RightArrow {
+            right: 18%;
+        }
+
+        .LeftArrow {
+            left: 17%;
+        }
+
+        .footerSubscribeBtn input {
+            width: 65%;
+        }
+
+        .footerSubscribeBtn a {
+            width: 26%;
+        }
+
+        .footerBottomLeftText ul li {
+            margin-right: 15px;
+        }
+        .workBtn a {
+            font-size: 15px;
+        }
+
+    }
+
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+
+    }

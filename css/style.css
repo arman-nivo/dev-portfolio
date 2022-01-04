@@ -1,0 +1,973 @@
+/*==================== typograpy css start ====================*/
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    transition: .6s;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+strong {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*==================== typograpy css End ====================*/
+
+/*==================== navSection css Start ====================*/
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    transition: all .7s ease;
+    font-family: 'Roboto', sans-serif, thin;
+    font-weight: 400;
+    font-size: 14px;
+    position: relative;
+}
+
+.navbar-light .navbar-nav .nav-link::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0px;
+    background-color: #00e0d0;
+    transition: all .7s ease;
+    opacity: 0;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::after {
+    opacity: 1;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #00e0d0;
+}
+
+.nav-bg {
+    background-color: #333;
+}
+
+.navbar {
+    transition: all .7s ease;
+}
+
+/*==================== navSection css End ====================*/
+
+/*==================== bannerSection css Strat ====================*/
+#bannerSection {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 70px 0px;
+    position: relative;
+    z-index: 5;
+    margin-top: -6%;
+}
+
+#bannerSection::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(52, 44, 95, .9);
+    z-index: -1;
+
+}
+
+.BannerSliding {
+    position: relative;
+    z-index: 20;
+
+}
+
+.bannerSectionText {
+    padding: 125px 0px;
+
+}
+
+#bgndVideo {
+    position: relative;
+    z-index: -2;
+}
+
+.bannerSectionText h1 {
+    font-size: 36px;
+    color: #ffffff;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    margin-bottom: 50px;
+    position: relative;
+
+}
+
+.bannerSectionText h1::after {
+    position: absolute;
+    content: '';
+    left: 50%;
+    top: 57px;
+    transform: translateX(-50%);
+    height: 2px;
+    width: 50px;
+    background-color: #00e0d0;
+}
+
+.bannerSectionText p {
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-bottom: 50px;
+    line-height: 25px;
+    padding: 0px 111px;
+}
+
+.bannerSectionText a {
+    font-size: 16px;
+    color: #00e0d0;
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 400;
+    border: 1px solid #00e0d0;
+    padding: 12px 20px;
+    background: transparent;
+    transition: all .7s ease;
+    border-radius: 3px;
+}
+
+.bannerSectionText a:hover {
+    background-color: #00e0d0;
+    color: #111111;
+}
+
+/*===== banner Slider css Start =====*/
+.slick-dots {
+    text-align: center;
+
+}
+
+.slick-dots li {
+    display: inline-block;
+    margin-right: 10px;
+    height: 15px;
+    width: 15px;
+    line-height: 15px;
+    border: none;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.719);
+    border-radius: 50%;
+}
+
+.slick-dots li button {
+    background: transparent;
+    color: transparent;
+    border: none;
+    background: #03b9ad;
+    height: 10px;
+    width: 10px;
+    line-height: 10px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all .7s ease;
+    opacity: 0;
+    outline: none;
+}
+
+.slick-dots li.slick-active button {
+    opacity: 1;
+}
+
+.BannerSliding {
+    position: relative;
+}
+
+/*==================== bannerSection css End ====================*/
+
+/*==================== aboutSection css start ====================*/
+#aboutSection {
+    padding: 70px 0px;
+    background-color: #fff;
+}
+
+.aboutText h1 {
+    font-size: 22px;
+    color: #413d4b;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    padding-bottom: 30px;
+
+}
+
+.aboutText p {
+    font-size: 14px;
+    color: #413d4b;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 25px;
+    padding-bottom: 18px;
+    padding-right: 100px;
+}
+
+.aboutText a {
+    font-size: 16px;
+    color: #00e0d0;
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 400;
+    border: 1px solid #00e0d0;
+    padding: 12px 20px;
+    background: transparent;
+    transition: all .7s ease;
+    border-radius: 3px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.aboutText a:hover {
+    background-color: #00e0d0;
+    color: #111111;
+}
+
+/*==================== aboutSection css End ====================*/
+
+/*==================== videoSection css Start ====================*/
+#videoSection {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0px;
+    position: relative;
+    z-index: 1;
+
+}
+
+#videoSection::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(52, 44, 95, 0.8);
+    z-index: -1;
+}
+
+.videoSectionContent img {
+    cursor: pointer;
+
+}
+
+.videoSectionContent h3 {
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    padding-top: 30px;
+
+}
+
+/*==================== videoSection css End ====================*/
+
+/*==================== expertiseSection css Start ====================*/
+#expertiseSection {
+    background-color: #fff;
+    padding: 70px 0px;
+}
+
+.expertiseTopText h1 {
+    font-size: 22px;
+    color: #413d4b;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    padding-bottom: 15px;
+
+}
+
+.expertiseTopText p {
+    font-size: 14px;
+    color: #2f2d35;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    padding-bottom: 100px;
+    position: relative;
+
+}
+
+.expertiseTopText p::after {
+    position: absolute;
+    content: '';
+    left: 50%;
+    top: 38px;
+    transform: translateX(-50%);
+    height: 2px;
+    width: 50px;
+    background-color: #928aac;
+}
+
+.expertiseBottomContent img {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 35px;
+}
+
+.expertiseBottomContent h2 {
+    font-size: 14px;
+    color: #413d4b;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    padding-bottom: 25px;
+
+}
+
+.expertiseBottomContent p {
+    font-size: 14px;
+    color: #413d4b;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding: 0px 55px;
+    padding-bottom: 80px;
+}
+
+/*==================== expertiseSection css End ====================*/
+
+
+/*==================== OurTeamSection css Start ====================*/
+#OurTeamSection {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 70px 0px;
+    position: relative;
+    z-index: 1;
+}
+
+#OurTeamSection::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(52, 44, 95, 0.8);
+    z-index: -1;
+}
+
+.OurTeamWrapper {
+    padding: 70px 0px;
+}
+
+.OurTeamTopText h2 {
+    font-size: 22px;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    padding-bottom: 15px;
+
+}
+
+.OurTeamTopText p {
+    font-size: 14px;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
+    position: relative;
+}
+
+.OurTeamTopText p::after {
+    position: absolute;
+    content: '';
+    left: 50%;
+    top: 38px;
+    transform: translateX(-50%);
+    height: 2px;
+    width: 50px;
+    background-color: #928aac;
+}
+
+.customCard {
+    background: transparent;
+    border: 1px solid #fff;
+    margin-right: 20px;
+}
+
+.CustomCardBody {
+    padding: 20px 0px;
+}
+
+.OurTeamWrapper .slick-dots {
+    bottom: -5px;
+    position: absolute;
+}
+
+.CustomCardBody h5 {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.CustomCardBody p {
+    color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    padding-bottom: 10px;
+
+}
+
+.ourTeamBottomText p {
+    font-size: 14px;
+    color: #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding-bottom: 25px;
+    margin-top: 15px;
+}
+
+.ourTeamBottomText a {
+    font-size: 16px;
+    color: #00e0d0;
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 400;
+    border: 1px solid #00e0d0;
+    padding: 12px 20px;
+    background: transparent;
+    transition: all .7s ease;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.ourTeamBottomText a:hover {
+    background-color: #00e0d0;
+    color: #111111;
+}
+
+/*==================== OurTeamSection css End ====================*/
+
+/*==================== workSection css Start ====================*/
+#workSection {
+    background-color: #fff;
+    padding: 70px 0px;
+
+}
+
+.workTopText {
+    margin-bottom: 70px;
+}
+
+.WorkTopLeftText h2 {
+    color: #413d4b;
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 700;
+
+}
+
+.WorkTopRightText p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: right;
+}
+.WorkTopRightText p a{
+    color: #413d4b;
+}
+.WorkTopRightText p i {
+    color: #413d4b;
+    font-size: 14px;
+}
+
+.workImg {
+    padding: 0px;
+}
+
+.workImg img {
+    cursor: pointer;
+}
+
+.workBtn a {
+    font-size: 16px;
+    color: #00e0d0;
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 400;
+    border: 1px solid #00e0d0;
+    padding: 12px 20px;
+    background: transparent;
+    transition: all .7s ease;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 70px;
+
+}
+
+.workBtn a:hover {
+    background-color: #00e0d0;
+    color: #111111;
+}
+
+/*==================== workSection css End ====================*/
+
+
+/*==================== pepoleSayTextSection css End ====================*/
+#pepoleSaySection {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 70px 0px;
+    position: relative;
+    z-index: 1;
+}
+
+#pepoleSaySection::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(52, 44, 95, 0.8);
+    z-index: -1;
+}
+
+.pepoleSayTextSection span {
+    font-size: 40px;
+    padding-bottom: 25px;
+    color: #fff;
+    z-index: 2;
+    display: block;
+}
+
+.pepoleSayTextSection p {
+    color: #ffffff;
+    line-height: 30px;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+.pepoleSayTextSection h2 {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    padding-bottom: 10px
+}
+
+.pepoleSayTextSection h5 {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    padding-bottom: 40px;
+}
+
+.PepoleSayImgSlider {
+    position: relative;
+    z-index: 99;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.pepoleSayImg img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+
+}
+
+.RightArrow {
+    position: absolute;
+    color: #fff;
+    /* font-size: 20px; */
+    right: 28%;
+    bottom: 17%;
+    /* cursor: pointer; */
+}
+
+.LeftArrow {
+    position: absolute;
+    color: #fff;
+    /* font-size: 20px; */
+    left: 27%;
+    bottom: 16%;
+    cursor: pointer;
+}
+
+.slick-arrow {
+    background: transparent;
+    font-size: 40px;
+    border: none;
+}
+
+button.slick-arrow {
+    outline: 0;
+}
+
+.slick-center>.pepoleSayImg img {
+    border: 3px solid #00e0d0;
+    transform: rotate(360deg);
+    transition: all 1s ease;
+
+}
+
+/*==================== pepoleSayTextSection css End ====================*/
+
+
+/*==================== contactSection css Start ====================*/
+#contactSection {
+    background-color: #fff;
+    padding: 70px 0px;
+}
+
+.contactTopText {
+    margin-bottom: 35px;
+}
+
+.contactInput {
+    padding: 18px 22px;
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #413d4b;
+}
+
+.contactTextArea {
+    padding: 18px 22px;
+    height: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #413d4b;
+}
+
+.contactTopLeftText h2 {
+    color: #413d4b;
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 700;
+
+}
+
+.contactTopRightText h2 {
+    color: #413d4b;
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 700;
+
+}
+
+.contactBtn a {
+    font-size: 16px;
+    color: #00e0d0;
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 400;
+    border: 1px solid #00e0d0;
+    padding: 15px 35px;
+    background: transparent;
+    transition: all .7s ease;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 22px;
+}
+
+.contactBtn a:hover {
+    background-color: #00e0d0;
+    color: #111111;
+}
+
+/*==================== contactSection css End ====================*/
+
+
+/*==================== FooterSection css Start ====================*/
+#FooterSection {
+    background: url(../img/footer_bg.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 70px 0px 50px 0px;
+    position: relative;
+    z-index: 1;
+}
+
+#FooterSection::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(52, 44, 95, 0.9);
+    z-index: -1;
+}
+
+.footerTopLeftContent img {
+    padding-bottom: 25px;
+
+}
+
+.footerTopLeftContent p {
+    color: #ffffff;
+    line-height: 30px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding: 0px 85px 0px 0px;
+}
+
+.footerTopMiddleContent h2 {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    padding-bottom: 35px;
+    margin-top: 20px;
+
+}
+
+.footerTopMiddleContent span {
+    display: inline-block;
+    margin-right: 15px;
+    color: #fff;
+    float: left;
+    height: 60px;
+}
+
+.footerTopMiddleContent p {
+    color: #ffffff;
+    line-height: 27px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.footerTopRightContent h2 {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    padding-bottom: 35px;
+    margin-top: 20px;
+}
+
+.footerSubscribeBtn input {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background: transparent;
+    padding: 12px 17px;
+    border: 1px solid #fff;
+    margin-right: 10px;
+    width: 215px;
+}
+
+.footerSubscribeBtn a {
+    padding: 12px 25px;
+    background: #A099B3;
+    width: 70px;
+    display: inline-block;
+}
+
+.footerIcon {
+    margin-top: 27px;
+}
+
+.footerIcon a {
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 8px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background: transparent;
+    text-align: center;
+    transition: .7s;
+}
+
+.footerIcon a:hover {
+    color: black;
+    background: #00E0D0;
+}
+
+.footerBottomLeftText ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footerBottomLeftText ul li {
+    display: inline-block;
+    margin-right: 33px;
+}
+
+.footerBottomLeftText ul li:last-child {
+    margin-right: 0px;
+}
+
+.footerBottomLeftText ul li a {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    transition: .7s;
+}
+
+.footerBottomLeftText ul li a:hover {
+    color: #00E0D0;
+}
+
+.footerBottomRightText p {
+    text-align: right;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/*==================== FooterSection css End ====================*/
+
+
+
+/*==================== Typed css Start ====================*/
+/*Add custom cursor so it auto inherits font styles*/
+.typed::after {
+    content: '|';
+    display: inline;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+/*Removes cursor that comes with typed.js*/
+.typed-cursor {
+    opacity: 0;
+    display: none;
+}
+
+/*Custom cursor animation*/
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/*=========  Typed.js End ==========*/
+
+/*=========  particles.js css start ==========*/
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 89%;
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: 5;
+}
+
+/*=========  particles.js End ==========*/
+
+
+/*=========  Preloader css Start ==========*/
+.preloder{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #2f2d35;
+    z-index: 999999;
+}
+.preloder img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  
+}
+/*=========  Preloader css End ==========*/
+
+/*=========  SrcollToTopButton css Start ==========*/
+#SrcollToTopButton{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 999;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: transparent;
+  }
+/*=========  SrcollToTopButton css End ==========*/
+
+
+
+
+
+/*==================== 
+font-family: 'Hammersmith One', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+00e0d0
+====================*/
