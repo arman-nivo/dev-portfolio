@@ -4,10 +4,10 @@ $(document).ready(function () {
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        dots: true,
+        dots: false,
         speed: 1000,
         arrows: false,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 2000,
     });
 
@@ -286,7 +286,7 @@ $(document).ready(function () {
 
     // Srcoll to Top Button js
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 200) {
+        if ($(this).scrollTop() > 220) {
             $('#SrcollToTopButton').fadeIn();
         } else {
             $('#SrcollToTopButton').fadeOut();
