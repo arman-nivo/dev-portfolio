@@ -76,6 +76,13 @@ img {
     transition: all .7s ease;
 }
 
+.logoidt{
+    width: 50px;
+    height: 40px;
+    border: 2px solid yellow;
+    border-radius: 45%;
+    position: relative;
+}
 /*==================== navSection css End ====================*/
 
 /*==================== bannerSection css Strat ====================*/
