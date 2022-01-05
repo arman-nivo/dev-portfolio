@@ -23,6 +23,16 @@
 
     }
 
+    .bannerimgidt {
+        max-width: 71%;
+        margin: 0 auto;
+        position: relative;
+        left: 59px;
+    }
+    .bannerSectionText{
+        left: 0px;
+    }
+
     .bannerSectionText p {
         margin-bottom: 30px;
         padding: 0px 10px;

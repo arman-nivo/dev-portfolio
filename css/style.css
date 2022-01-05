@@ -114,6 +114,9 @@ img {
     z-index: 20;
 
 }
+.bannerimgidt{
+    max-width: 121%;
+}
 
 .bannerSectionText {
     padding: 125px 0px 0px 0px;
